@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<body style="margin: 0;">
+  <div>
+    <header style="background-color: #1b3385; text-align: center; padding: 10px 0; font-size: 30px;" id="topo">
+      <h1> <b>HTML</b> <sup>Linguagem de Marcação de Hiperterxto</sup></h1>
+      <h2>Tutoriais para iniciantes</h2>
+    </header>
+    <nav>
+      <ul
+        style="list-style: none; display: flex; justify-content: space-between; background-color: #1b3385; padding: 10px;">
+        <li style="flex-grow: 1;"><a href="index.html#topo" style="color: #000000; text-decoration: none;">Início</a>
+        </li>
+        <li style="flex-grow: 1;"><a href="index.html#html" style="color: #000000; text-decoration: none;">HTML</a></li>
+        <li style="flex-grow: 1;"><a href="index.html#tabela" style="color: #000000; text-decoration: none;">Tabela e
+            Lista</a></li>
+        <li style="flex-grow: 1;"><a href="index.html#sobre" style="color: #000000; text-decoration: none;">Sobre CSS,
+            HTML e JS</a></li>
+        <li style="flex-grow: 1;"><a href="index.html#rodape" style="color: #000000; text-decoration: none;">Links</a>
+        </li>
+        <li style="flex-grow: 1;"><a href="contatos.html" style="color: #000000; text-decoration: none;">Contato</a>
+        </li>
+      </ul>
+    </nav>
+    <section style="margin-bottom: 20px;">
+      <form action="obrigado.html" method="get">
+
+        <label>Nome:</label><br> <!--Rótulo-->
+        <input type="text" name="nome" placeholder="Digite deu Nome " required>
+        <br>
+
+        <label>E-mail:</label>
+        <br>
+        <input type="email" name="email" placeholder="Digite seu E-mail" required>
+        <br>
+
+        <label>Assunto</label>
+        <br>
+        <select name="valores">
+          <option value="valor1">Dúvidas sobre o CSS</option>
+          <option value="valor2">Dúvidas sobre o HTML</option>
+          <option value="valor3">Dúvidas sobre o JavaScript</option>
+        </select>
+        <br>
+
+        <label>Assunto:</label>
+        <br>
+        <input type="text" name="assunt" placeholder="Assunto" required>
+        <br>
+
+        <label>Mensagem:</label>
+        <br>
+        <textarea name="mensagem" placeholder="Mensagem"></textarea required> <!--placeholder serve para deixar um texto flutuante-->
+         <br>   
+         
+         <input type="checkbox" name="termosuser" value="concordo com os termos" required>
+
+       <label>Li e concordo com os termos de política do site</label>
+           <br>
+
+         <input type="submit" name="text" value="Enviar">
+       </section>
+     </form>
+
+          <footer id="rodape" style="padding: auto;">
+            <div style="display: grid; grid-template-columns: auto auto auto auto;">
+              <div style="background-color:#f1e3e3;">
+                <h3>Sobre</h3>
+                <ul>
+                  <li><a href="#topo">Topo</a></li>
+                  <li><a title="Todos os direitos deste site são reservados">Política de Privacidade</a></li>
+                  <li><a href="contatos.html">Fale conosco</a></li>
+                </ul>
+              </div>
+              <div style="background-color: grey;">
+                <h3>Referências</h3>
+                <ul>
+                  <li><a href="https://w3school.com" target="_blank">w3school</a></li>
+                  <li><a href="https://alura.com.br" target="_blank">Alura</a></li>
+                  <li><a href="https://youtube.com/danielbrandao" target="_blank">Canal do Youtube</a></li>
+                </ul>
+              </div>
+              <div style="background-color: #f1e3e3;">
+                <h3>Tutoriais</h3>
+                <ul>
+                  <li>Design</li>
+                  <li>Marketing</li>
+                  <li>Programação</li>
+                  <li>Tutorias</li>
+                </ul>
+              </div>
+              <div style="background-color: grey;">
+                <h3>Outro Links</h3>
+                <ul>
+                  <li><a href="https://www.datascienceacademy.com.br/cursosgratuitos" target="_blank">DataScienceAcademy</a></li>
+                  <li><a href="https://pll.harvard.edu/subject/programming" target="_blank">Curso em harvard</a></li>
+                  <li><a href="https://youtu.be/Ejkb_YpuHWs" target="_blank">Curso HTML no Youtube</a></li>
+                </ul>
+              </div>
+            </div>
+            <div style="width: 100%; text-align: center;">
+              <p>Antonio Neto &copy;Direitos reservados</p>
+            </div>
+          </footer>  
+      </div>
+    </body>
+  </html>   
